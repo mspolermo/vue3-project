@@ -1,19 +1,26 @@
-# vue3-project
+# Работа с постами на Vue.js
 
-## Project setup
-```
-npm install
-```
+Учебное приложение для просмотра и добавления постов на Vue.js с использованием Vuex и Vue Router, Composition API. Данные берутся асинхронно с fake-API JSONPlaceholder.
+## Установка
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Склонируйте репозиторий: `git clone https://github.com/mspolermo/vue3-project.git`
+2. Установите зависимости: `npm install`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Запуск
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Запустите проект: `npm run serve`
+2. Откройте браузер и перейдите по адресу `http://localhost:8080/`
+
+## Использование
+
+- На главной странице отображается список постов.
+- Нажмите на кнопку "Открыть", чтобы открыть страницу с постом.
+- Нажмите кнопку "Создать пост", чтобы создать новый пост.
+- Нажмите кнопку "Удалить", чтобы удалить пост.
+
+## Используемые технологии
+
+- Vue.js
+- Vuex
+- Vue Router
+- Composition API
